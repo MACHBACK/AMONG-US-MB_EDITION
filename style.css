@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+body{
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+    color:white;
+    background-image: url("https://i1.faceprep.in/among-us-bg.png");
+    background-size: 100vw  100vh;
+    background-repeat: no-repeat;
+}   
+h1{
+    font-size: 48px;
+}
+label{
+    font-size: 32px;
+    margin-right: 30px;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    width: 175px;
+    height: 70px;
+    background-color: #FBB82D;
+    color: white;
+    font-family:'bitter', sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+}
+.hidden{
+    display: none;
+}
+.eject{
+    position: absolute;
+    left: -20px;
+    animation: roll 6s linear;
+}
+@keyframes roll{
+    0%{
+        transform: rotate(0);
+        left: -20%;
+    }
+    100%{
+        transform: rotate(360deg);
+        left: 120%;
+    }
+}
